@@ -7,37 +7,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-    <!-- Latest compiled and minified CSS -->
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
-
-    <!-- Optional theme -->
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
-
     <link rel="stylesheet" href="css/materialize.min.css">
-    <!-- Latest compiled and minified JavaScript -->
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 <nav>
     <div class="nav-wrapper teal">
-        <img src="img/logo-SF.png" alt="Logo" class="brand-logo" width="50" height="50" style="padding: 2px">
+        <img src="img/logo-SF.png" alt="Logo" class="brand-logo" width="50" height="50">
     </div>
 </nav>
-<div class="card-panel center-align">
+<div class="card-panel center-align margin">
     <form>
         <div class="input-field">
-            <input id="login" type="text">
+            <input id="login" type="text"/>
             <label for="login">Identifiant</label>
         </div>
         <div class="input-field">
-            <input id="password" type="password">
+            <input id="password" type="password"/>
             <label for="password">Mot de passe</label>
         </div>
-        <button class="waves-effect waves-light btn" onclick="register()">S'enregister</button>
+        <a class="btn" onclick="identifier()">S'identifier</a>
     </form>
+    <div class="row">
+        <a href="inscription.html" style="margin-top: 50px">Pas encore inscrit ? Par ici</a>
+    </div>
 </div>
 <div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
