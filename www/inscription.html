@@ -13,55 +13,65 @@
     <title>Document</title>
 
 </head>
-    <body>
+<body class=" ">
     <nav>
         <div class="nav-wrapper beige-perso">
             <img src="img/logo-SF.png" alt="Logo" class="brand-logo" width="50" height="50" style="padding: 2px">
         </div>
     </nav>
-    <h1 style="text-align:center">Inscription</h1>
-    <div class="row">
-        <form class="col s12">
-            <div class="row">
-                <div class="input-field col s6">
-                    <input placeholder="Prénom" id="prenom" type="text" class="validate"/>
+    <div class="container">
+        <h1 style="text-align:center">Inscription</h1>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6" >
+                        <input placeholder="Prénom" id="prenom" type="text" class="validate"/>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="nom" type="text" placeholder="Nom" class="validate"/>
+                    </div>
                 </div>
-                <div class="input-field col s6">
-                    <input id="nom" type="text" placeholder="Nom" class="validate"/>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <p>
+                            <input name="group1" type="radio" id="femme" />
+                            <label for="femme">Femme</label>
+                        </p>
+                    </div>
+                    <div class="input-field col s6">
+                        <p>
+                            <input name="group1" type="radio" id="homme"/>
+                            <label for="homme">Homme</label>
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <input id="motDePasse" type="password" placeholder="Mot de passe" class="validate"/>
-                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="motDePasse" type="password" placeholder="Mot de passe" class="validate"/>
+                    </div>
 
-                <div class="input-field col s12">
-                    <input id="confirmezMotDePasse" type="password" placeholder="Confirmez mot de passe" class="validate"/>
+                    <div class="input-field col s12">
+                        <input id="confirmezMotDePasse" type="password" placeholder="Confirmez mot de passe" class="validate"/>
+                    </div>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="input-field col s6">
-                    <p>
-                        <input name="group1" type="radio" id="femme" />
-                        <label for="femme">Femme</label>
-                    </p>
-                </div>
+<<<<<<< HEAD
                 <div class="input-field col s6">
                     <p>
                         <input name="group1" type="radio" id="homme"/>
                         <label for="homme">Homme</label>
                     </p>
+=======
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate" for="email" data-error="wrong" data-success="right" placeholder="Votre adresse e-mail">
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="confirmezEmail" type="email" class="validate" for="email" data-error="wrong" data-success="right" placeholder="Confirmez votre adresse e-mail">
+                    </div>
+>>>>>>> 90485fccb8ff8b531b417c8c249bb28c5dd20704
                 </div>
-            </div>
-
-
-            <div class="row">
-                <div class="input-field col s12">
-                    <input id="email" type="email" class="validate" for="email" data-error="wrong" data-success="right" placeholder="Email">
-                </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
-    </body>
+</body>
 </html>

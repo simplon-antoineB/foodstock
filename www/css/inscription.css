@@ -25,3 +25,14 @@
 .input-field .prefix.active {
     color: #000;
 }
+
+.orange-perso {
+    background-color: #D15514 !important;
+}
+
+.bege-perso {
+    background-color: #FED897 !important;
+}
+.black-perso {
+    background-color: #1C100B !important;
+}
