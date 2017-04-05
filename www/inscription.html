@@ -14,32 +14,40 @@
 
 </head>
     <body>
+    <nav>
+        <div class="nav-wrapper teal">
+            <img src="img/logo-SF.png" alt="Logo" class="brand-logo" width="50" height="50" style="padding: 2px">
+        </div>
+    </nav>
     <h1 style="text-align:center">Inscription</h1>
     <div class="row">
         <form class="col s12">
             <div class="row">
                 <div class="input-field col s6">
                     <input placeholder="Prénom" id="prenom" type="text" class="validate"/>
-                    <label for="prenom">Prénom</label>
                 </div>
                 <div class="input-field col s6">
-                    <input id="nom" type="text" placeholder="NOm" class="validate"/>
-                    <label for="nom">Nom</label>
+                    <input id="nom" type="text" placeholder="Nom" class="validate"/>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="motDePasse" type="password" placeholder="Mot de passe"class="validate"/>
-                    <label for="motDePasse">Mot de passe</label>
+                    <input id="motDePasse" type="password" placeholder="Mot de passe" class="validate"/>
+                </div>
+
+                <div class="input-field col s12">
+                    <input id="confirmezMotDePasse" type="password" placeholder="Confirmez mot de passe" class="validate"/>
                 </div>
             </div>
 
             <div class="row">
-                <div class="input-field col s12">
+                <div class="input-field col s6">
                     <p>
                         <input name="group1" type="radio" id="femme" />
                         <label for="femme">Femme</label>
                     </p>
+                </div>
+                <div class="input-field col s6">
                     <P>
                         <input name="group1" type="radio" id="homme"/>
                         <label for="homme">Homme</label>
@@ -50,8 +58,7 @@
 
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="email" type="email" class="validate">
-                    <label for="email" data-error="wrong" data-success="right">Email</label>
+                    <input id="email" type="email" class="validate" for="email" data-error="wrong" data-success="right" placeholder="Email">
                 </div>
             </div>
         </form>
