@@ -1,5 +1,16 @@
 {
-  "Nom":"Banane",
-  "Quantite":"2",
-  "Poids":""
+  "produits" : [
+    {
+        "Nom": "Banane",
+        "Quantite": "2",
+        "Poids": ""
+    },
+    {
+        "Nom": "Pâtes",
+        "Quantite": "3",
+        "Poids": "500gr"
+    }
+
+  ]
+
 }
