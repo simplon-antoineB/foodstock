@@ -17,21 +17,23 @@
     <!-- Latest compiled and minified JavaScript -->
     <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/ajoutIngredient.js"></script>
 </head>
 <body>
 
-    <form>
+    <form action="" method="post">
         <div class="input-field">
-            <input id="produits" type="text">
+            <input id="produits" name="produit" type="text">
             <label for="produits">produits</label>
         </div>
         <div class="input-field">
-            <input id="poids" type="number">
-            <label for="poids">poids</label>
+            <input id="quantite" type="number" name="quantite">
+            <label for="quantite">quantite</label>
         </div>
         <div class="input-field">
-            <input id="codeBarre" type="text">
-            <label for="codeBarre">code barre</label>
+            <input id="poids" type="number" name="poids">
+            <label for="poids">poids</label>
         </div>
         <div class="input-field">
             <button id="sauvegarder" type="submit">sauvegarder</button>
