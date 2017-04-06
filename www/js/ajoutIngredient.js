@@ -2,7 +2,7 @@
  * Created by Antoine on 04/04/2017.
  */
 $(document).ready(function(){
-    $('#sauvegarder').click(
+    $('#setSotck').click(
     function onSubmit(event) {
         event.preventDefault();
         var produits = $('#produits').val();
