@@ -36,3 +36,14 @@
 .black-perso {
     background-color: #1C100B !important;
 }
+
+.radio-bege-border[type="radio"]:checked + label:after,
+[type="radio"].with-gap:checked + label:before,
+[type="radio"].with-gap:checked + label:after {
+    border: 2px solid #FED897;
+}
+
+.radio-bege[type="radio"]:checked + label:after,
+[type="radio"].with-gap:checked + label:after {
+    background-color: #FED897;
+}
