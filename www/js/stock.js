@@ -32,7 +32,7 @@ function getStock() {
         nom = JSON.parse(localStorage.getItem(localStorage.key(i))).Nom;
         quantite = JSON.parse(localStorage.getItem(localStorage.key(i))).Quantite;
         poids = JSON.parse(localStorage.getItem(localStorage.key(i))).Poids;
-        content = '<li>' + nom + ' - ' + quantite + ' - ' + poids + '</li>';
+        content = '<li class=" collection-item ">' + nom + ' - ' + quantite + ' - ' + poids + '</li>';
         $(content).appendTo("#stock");
     }
 }
