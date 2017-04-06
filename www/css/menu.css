@@ -45,7 +45,14 @@ header{
 /*.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}*/
 /*.menu li {display: inline-block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}*/
 /*.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}*/
-.menu-perso a{text-decoration:none; color:#666;}
+.menu-perso li {
+    width: 100%;
+}
+
+.menu-perso a{
+    width: 100%;
+    color:#666;
+}
 
 .glyphicon-home{
     color:white;
