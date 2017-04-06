@@ -4,16 +4,8 @@
 $(document).ready(function(){
     $('#setSotck').click(
     function onSubmit(event) {
-        event.preventDefault();
-        var produits = $('#produits').val();
-        var poids = $('#poids').val();
-        var codeBarre = $('#codeBarre').val();
+        //event.preventDefault();
 
-        var produitInfo = {
-            'Nom': produits,
-            'Quantite': codeBarre,
-            'Poids': poids
-        };
 
         var banane = {
             "Nom": "Banane",
@@ -78,6 +70,25 @@ $(document).ready(function(){
         console.log('test : ', JSON.parse(test)); */
         window.location.replace("stock.html");
     });
+
+    $('#setIngredient').click(
+        function ajout(event){
+
+            var produits = $('#produits').val();
+            var poids = $('#poids').val();
+            var codeBarre = $('#codeBarre').val();
+
+            var produitInfo = {
+                'Nom': produits,
+                'Quantite': codeBarre,
+                'Poids': poids
+            };
+
+            event.preventDefault();
+            localStorage.setItem('test', JSON.stringify(produitInfo));
+        }
+    )
+
     $('#annuler').click(
         function back(event){
             window.location.replace("stock.html");
